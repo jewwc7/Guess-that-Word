@@ -1,0 +1,163 @@
+body{
+  background-color: black;
+}
+
+h1{
+  position: absolute;
+  top: 0px;
+  left:350px;
+  text-decoration: underline;
+  color: white;
+  color: rgb(255, 255, 255);
+   text-shadow: rgb(122, 122, 122) 4px 3px 0px;
+--darkreader-inline-color:#e8e6e3;
+--darkreader-inline-bgcolor:#404548;
+--darkreader-inline-bgimage:none;
+}
+.container{
+  position: relative;
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dotted black;
+}
+
+.correct{
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  height:100px;
+  width:400px;
+
+}
+
+.hidden-letters{
+  height: 100px;
+  width:100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0px;
+  border: 2px solid;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  background: rgb(184, 184, 184) none repeat scroll 0% 0%;
+  text-shadow: rgb(122, 122, 122) 4px 3px 0px;
+--darkreader-inline-color:#e8e6e3;
+--darkreader-inline-bgcolor:#404548;
+--darkreader-inline-bgimage:none;
+}
+
+
+.keyboard{
+  width: 1000px;
+  height: 350px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+
+  }
+
+.keyboard button{
+  border: 1px solid blue;
+  margin-left: 20px;
+  margin-top: 10px ;
+  width: 70px;
+  height: 100px;
+  flex-grow: 1;
+  background-color: black;
+
+}
+
+
+.tracker{
+  position: absolute;
+  background-color: black;
+  top:230px;
+  left:330px;
+  height: 300px;
+  font-size: 30px;
+}
+
+.score{
+  background-color: black;
+}
+
+.hangman{
+  position: absolute;
+  top:0px;
+  right:0px;
+  height: 300px;
+  width:200px;
+  background-color: blue;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  }
+
+
+#wrong-count{
+  height:30px;
+  width:40px;
+  font-size: 30px;
+  top: 65px;
+  position:relative;
+}
+
+.material-icons{
+  position: absolute;
+  font-size:90px;
+  top:90px;
+  right:40px;
+  color: gray;
+}
+
+.notication{
+  position: absolute;
+  top:120px;
+  left:120px;
+  padding: 10px;
+  display: none;
+  color: white ;
+  background-color: black;
+  box-shadow: 2px 2px 11px 19px rgba(255,255,255,0.65);
+  font-size: 25px;
+}
+.play-again{
+  height: 200px;
+  width:300px;
+  top:350px;
+  right:300px;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 2px 2px 11px 19px rgba(255,255,255,0.65);
+  font-size: 20px;
+  text-shadow: rgb(122, 122, 122) 4px 3px 0px;
+--darkreader-inline-color:#e8e6e3;
+--darkreader-inline-bgcolor:#404548;
+--darkreader-inline-bgimage:none;
+  background: black;
+  color:white;
+}
+
+.instructions{
+  position: absolute;
+  right:25px;
+  top:20px;
+   width: 300px;
+  box-shadow: 2px 2px 11px 19px rgba(255,255,255,0.65);
+  color: white;
+
+}
+
+h2{
+  text-align: center;
+}

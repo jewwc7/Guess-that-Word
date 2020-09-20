@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="hangman-style.css"/>
+    <title>Hangman</title>
+  </head>
+  <body>
+<div class="container" id="container">
+  <h1>Guess that word!</h1>
+    <div class="notication" id='notication'></div>
+  <div class="tracker">
+      <div class='score' id='remaining'>Number of Letters-</div>
+  </div>
+  <div>
+    <div></div>
+  </div>
+  <div id="correct" class='correct'></div>
+  <div class='hangman' id='hangman'>
+    <div id="wrong-count"></div>
+      <div class="material-icons" id='icon'>emoji_people</div>
+      </div>
+
+</div>
+
+
+    <div class='keyboard' id='keyboard'>
+      <button value ="65">A</button>
+      <button value ="66">B</button>
+      <button value ="67">C</button>
+      <button value ="68">D</button>
+      <button value ="69">E</button>
+      <button value ="70">F</button>
+      <button value ="71">G</button>
+      <button value ="72">H</button>
+      <button value ="73">I</button>
+      <button value ="74">J</button>
+      <button value ="75">K</button>
+      <button value ="76">L</button>
+      <button value ="77">M</button>
+      <button value ="78">N</button>
+      <button value ="79">O</button>
+      <button value ="80">P</button>
+      <button value ="81">Q</button>
+      <button value ="82">R</button>
+      <button value ="83">S</button>
+      <button value ="84">T</button>
+      <button value ="85">U</button>
+      <button value ="86">V</button>
+      <button value ="87">W</button>
+      <button value ="88">X</button>
+      <button value ="89">Y</button>
+      <button value ="90">Z</button>
+
+    </div>
+
+<div class="instructions">
+  <h2> Games instructions</h2>
+  <ol>
+    <li> If you guess 5 wrong letters, you lose
+      <li>Score is in blue area</li>
+    </li>
+    <li> Use the KeyBoard to Play</li>
+    <li>A highlighted letter means already pressed</li>
+  </ol>
+
+</div>
+
+
+      <script src="hangmanScript.js"></script>
+      </body>
